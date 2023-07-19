@@ -11,4 +11,7 @@ fightButton.addEventListener("click", function() {
     let randomIndexTwo = Math.floor(Math.random() * fighters.length )
     stageEl.textContent = (fighters[randomIndexOne] + " VS " + fighters[randomIndexTwo])
 })
+function action() {
+    console.log("Let the action begin")
+}
  
